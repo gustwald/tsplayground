@@ -1,0 +1,35 @@
+.theme {
+  &--light {
+    background-color: white;
+    border: 1px solid white;
+    p,
+    span,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: black;
+    }
+  }
+  &--dark {
+    background-color: black;
+    border: 1px solid blue;
+    p,
+    span,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    li,
+    a {
+      color: white;
+      background: black;
+    }
+  }
+}
+
+.header {
+  height: 200px;
+}
